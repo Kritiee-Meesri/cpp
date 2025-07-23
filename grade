@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int score;
+    float grade;
+
+    cout << "Enter score (0-100): ";
+    cin >> score;
+
+    if (score < 0 || score > 100) {
+        cout << "Invalid data, please try agian...." << endl;
+    }
+    else if (score >= 0 && score <= 49.99) {
+        grade = 0;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 50 && score <= 54.99) {
+        grade = 1;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 55 && score <= 59.99) {
+        grade = 1.5;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 60 && score <= 64.99) {
+        grade = 2;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 65 && score <= 69.99) {
+        grade = 2.5;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 70 && score <= 74.99) {
+        grade = 3;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 75 && score <= 79.99) {
+        grade = 3.5;
+        cout << "Grade: " << grade << endl;
+    }
+    else if (score >= 80 && score <= 100) {
+        grade = 4;
+        cout << "Grade: " << grade << endl;
+    }
+
+    return 0;
+}
