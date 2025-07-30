@@ -57,7 +57,19 @@ int main() {
         cout << "---------------------" <<endl;
         cout << num1 << " * " << num2 << " = " <<
                 num1*num2 << endl;            
-    } else {
+    } else if(op==5) {
+         //num1
+        cout << "enter num1 : ";
+        cin  >> num1;
+        cout << endl;
+        //num2
+        cout << "enter num2 : ";
+        cin  >> num2;
+        cout << endl;
+        cout << "---------------------" <<endl;
+        cout << num1 << " % " << num2 << " = " <<
+                num1%num2 << endl;            
+    }else {
         cout << "invaild deta" << endl;
     }
     
