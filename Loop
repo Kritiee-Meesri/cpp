@@ -1,0 +1,29 @@
+#include <iostream>
+int loop_num = 0;
+
+int fixed_loop;
+
+void printMyName(){
+    std::cout << " ikkiw" << std::endl ;
+}
+void getLoop(){
+    std::cin >> fixed_loop ;
+
+}
+
+int main() {
+    getLoop();
+    while(loop_num <= fixed_loop){
+        std::cout << "loop " << loop_num;
+        if(loop_num == 1){
+        std::cout << "wikki" << std
+        ::endl;
+        }else{
+             printMyName();
+        }     
+        loop_num++;
+        
+    }
+    
+    return 0;
+}
